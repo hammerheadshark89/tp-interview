@@ -1,0 +1,1445 @@
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 02:37:26 +0000
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3751)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort" for 172.17.0.1 at 2025-11-02 06:56:24 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort"}
+Filter chain halted as :validate_params rendered or redirected
+Completed 400 Bad Request in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 319)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:36:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 2490)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:36:27 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 63)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:43:59 +0000
+  
+LoadError (cannot load such file -- faraday):
+  
+app/controllers/pricing_controller.rb:1:in `<main>'
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:47:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 4612)
+
+
+  
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:8080 (Address not available - connect(2) for "localhost" port 8080)):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:52:36 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 62ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 5143)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:52:39 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 712)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:52:46 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 30ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 710)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:55:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 30ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 3803)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:55:53 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 30ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 646)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:56:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 34ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3805)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:57:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 24ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3818)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:58:02 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 32ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 745)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 07:58:33 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 776)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:18:37 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 190)
+
+
+  
+NoMethodError (undefined method `get' for nil:NilClass):
+  
+app/controllers/pricing_controller.rb:46:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:19:33 +0000
+  
+TypeError (superclass mismatch for class Reference):
+  
+app/controllers/pricing_controller.rb:7:in `<main>'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:21:50 +0000
+  
+SyntaxError (/rails/app/controllers/pricing_controller.rb:7: syntax error, unexpected '='
+class Reference = Struct.new(:period, :hotel, ...
+                ^
+):
+  
+app/controllers/pricing_controller.rb:7: syntax error, unexpected '='
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:22:07 +0000
+  
+SyntaxError (/rails/app/controllers/pricing_controller.rb:7: syntax error, unexpected '='
+class Reference = Struct.new(:period, :hotel, ...
+                ^
+/rails/app/controllers/pricing_controller.rb:15: syntax error, unexpected `end'):
+  
+app/controllers/pricing_controller.rb:7: syntax error, unexpected '='
+app/controllers/pricing_controller.rb:15: syntax error, unexpected `end'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:22:26 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 165)
+
+
+  
+NoMethodError (undefined method `get' for nil:NilClass):
+  
+app/controllers/pricing_controller.rb:46:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:29:28 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 52ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 747)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:29:33 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 646)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:30:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3801)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:30:33 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 43ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 646)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:30:37 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 645)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:30:55 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 37ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 743)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:31:07 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 33ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 645)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:31:11 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 37ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 643)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:31:16 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 35ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 643)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:32:05 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 49ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 755)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:32:12 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:33:03 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 74)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:40:12 +0000
+  
+SyntaxError (/rails/app/controllers/pricing_controller.rb:23: syntax error, unexpected ':', expecting `do' for condition or ';' or '\n'
+...rate in response.body['rates']:
+...                              ^
+):
+  
+app/controllers/pricing_controller.rb:23: syntax error, unexpected ':', expecting `do' for condition or ';' or '\n'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:40:43 +0000
+  
+SyntaxError (/rails/app/controllers/pricing_controller.rb:121: syntax error, unexpected end-of-input):
+  
+app/controllers/pricing_controller.rb:121: syntax error, unexpected end-of-input
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:41:30 +0000
+  
+SyntaxError (/rails/app/controllers/pricing_controller.rb:121: syntax error, unexpected end-of-input):
+  
+app/controllers/pricing_controller.rb:121: syntax error, unexpected end-of-input
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:42:56 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms | Allocations: 792)
+
+
+  
+NoMethodError (undefined method `body' for {"rates"=>[{"hotel"=>"FloatingPointResort", "period"=>"Summer", "rate"=>52500, "room"=>"SingletonRoom"}]}:Hash):
+  
+app/controllers/pricing_controller.rb:24:in `make_reference_from_ai_response'
+app/controllers/pricing_controller.rb:89:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:43:40 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 30ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 758)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:44:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 48ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3819)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:44:41 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 16ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:44:44 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 76)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 08:44:46 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 76)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:27:37 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 763)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:27:40 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 81)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:27:41 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 75)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:40:46 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 56ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 761)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:40:53 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 81)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:52:55 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 205)
+
+
+  
+NameError (undefined local variable or method `refresh_candidate_age' for []:UnsafeReferenceList):
+  
+app/controllers/pricing_controller.rb:45:in `get_refresh_candidates'
+app/controllers/pricing_controller.rb:76:in `block in get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:71:in `synchronize'
+app/controllers/pricing_controller.rb:71:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:103:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:53:36 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 790)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 09:53:38 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 84)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:05:03 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 955)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/pricing_controller.rb:79:in `block in set'
+app/controllers/pricing_controller.rb:77:in `synchronize'
+app/controllers/pricing_controller.rb:77:in `set'
+app/controllers/pricing_controller.rb:125:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:08:36 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 42ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 894)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:08:38 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 165)
+
+
+  
+ArgumentError (comparison of Time with nil failed):
+  
+app/controllers/pricing_controller.rb:46:in `>='
+app/controllers/pricing_controller.rb:46:in `block in get_refresh_candidates'
+app/controllers/pricing_controller.rb:46:in `bsearch_index'
+app/controllers/pricing_controller.rb:46:in `get_refresh_candidates'
+app/controllers/pricing_controller.rb:71:in `block in get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:66:in `synchronize'
+app/controllers/pricing_controller.rb:66:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:98:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:10:27 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 37ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 866)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:10:29 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 143)
+
+
+  
+ArgumentError (comparison of Time with nil failed):
+  
+app/controllers/pricing_controller.rb:47:in `>='
+app/controllers/pricing_controller.rb:47:in `block in get_refresh_candidates'
+app/controllers/pricing_controller.rb:47:in `bsearch_index'
+app/controllers/pricing_controller.rb:47:in `get_refresh_candidates'
+app/controllers/pricing_controller.rb:72:in `block in get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:67:in `synchronize'
+app/controllers/pricing_controller.rb:67:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:99:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:10:55 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 39ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 865)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:10:57 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 143)
+
+
+  
+ArgumentError (comparison of Time with nil failed):
+  
+app/controllers/pricing_controller.rb:47:in `>='
+app/controllers/pricing_controller.rb:47:in `block in get_refresh_candidates'
+app/controllers/pricing_controller.rb:47:in `bsearch_index'
+app/controllers/pricing_controller.rb:47:in `get_refresh_candidates'
+app/controllers/pricing_controller.rb:72:in `block in get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:67:in `synchronize'
+app/controllers/pricing_controller.rb:67:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:99:in `index'
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 33ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 4076)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:31 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 220)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/pricing_controller.rb:48:in `max'
+app/controllers/pricing_controller.rb:48:in `get_refresh_candidates'
+app/controllers/pricing_controller.rb:71:in `block in get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:66:in `synchronize'
+app/controllers/pricing_controller.rb:66:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:98:in `index'
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:53 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 23ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4074)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:54 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 821)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:58 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 30ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 776)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:13:59 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 788)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:14:58 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 46ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 871)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:15:06 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 31ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 765)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:18:00 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 39ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 769)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:18:01 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 800)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:18:01 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 812)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:21:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4081)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:21:09 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 823)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:21:10 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 778)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:21:12 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 790)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:22:42 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 26ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 880)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 28ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4081)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:21 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:22 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:23 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:35 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:30:37 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:00 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:02 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:04 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:05 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:06 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 38ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4083)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:20 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:23 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:24 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:25 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:26 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:27 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:28 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:29 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:29 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:32 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 798)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-02 10:31:40 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 10ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 01:23:34 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 69ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 873)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 01:23:38 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 137)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 01:23:40 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 135)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:35:11 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 283)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 3)):
+  
+app/controllers/pricing_controller.rb:65:in `get_ref_or_refresh_candidates'
+app/controllers/pricing_controller.rb:15:in `index'
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:35:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 2647)
+
+
+  
+NoMethodError (undefined method `call_ai_api' for #<PricingController:0x00000000004650>):
+  
+app/controllers/pricing_controller.rb:29:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:38:20 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 1694)
+
+
+  
+NoMethodError (undefined method `to_api_response_json' for #<struct Reference price_id=#<struct PriceId period="Summer", hotel="FloatingPointResort", room="SingletonRoom">, rate=66500, timestamp=2025-11-03 02:38:20.406263 +0000>):
+  
+app/controllers/pricing_controller.rb:41:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:39:39 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 35ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1025)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:39:41 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:39:43 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:39:43 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:39:44 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:44:57 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 38ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 919)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:44:59 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 02:45:00 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:04:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 32ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 4103)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:08:11 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 40ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 942)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:27:15 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 65ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 949)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:30:28 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 37ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 880)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:36:09 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 33ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 840)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:41:21 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+  
+ArgumentError (comparison of Integer with ActiveSupport::OrderedOptions failed):
+  
+app/controllers/ai_api.rb:12:in `call'
+app/controllers/pricing_controller.rb:32:in `index'
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 03:41:55 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 27ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 917)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 05:29:21 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 949)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 05:41:52 +0000
+Processing by PricingController#index as */*
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 45ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 950)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:41:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 46ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:41:15 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 61ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 829)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:41:16 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 776)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:41:17 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 778)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:41:22 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:41:29 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 58ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:41:35 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:41:40 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 77ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:41:49 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 11ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Winter&hotel=GitawayHotel&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:41:53 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"GitawayHotel", "room"=>"RestfulKing"}
+Completed 200 OK in 65ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:41:56 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:42:01 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 53ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:42:04 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:42:12 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:42:19 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:42:23 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 78ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1223)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:42:25 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:42:28 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:42:30 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 863)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:42:33 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 29ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:42:42 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 9ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Spring&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:42:50 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 32ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 862)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:42:52 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:42:57 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 16ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:42:59 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 52ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 862)
+
+
+Started GET "/pricing?period=Spring&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:43:03 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 41ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:13 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:43:14 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:43:21 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 41ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 951)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:25 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:43:35 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:36 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:37 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:43:37 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:42 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:51 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:43:58 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 44ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:44:03 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 132ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1310)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:44:06 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:44:07 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:44:15 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:44:24 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"RestfulKing"}
+Completed 200 OK in 64ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 1041)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:44:33 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 33ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:44:41 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 24ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=GitawayHotel&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:44:45 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"GitawayHotel", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:44:50 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 54ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1576)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:44:53 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:44:53 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:45:03 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:45:05 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:45:06 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:45:14 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:45:21 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 86ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1576)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:45:26 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:45:36 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 112ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 1130)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:45:44 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:45:46 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:45:47 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 38ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:45:52 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:02 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:04 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:46:12 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:46:13 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1589)
+
+
+Started GET "/pricing?period=Spring&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:15 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:46:18 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:24 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:46:30 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:46:31 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:31 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1637)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:46:41 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1409)
+
+
+Started GET "/pricing?period=Summer&hotel=GitawayHotel&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:46:41 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"GitawayHotel", "room"=>"RestfulKing"}
+Completed 200 OK in 10ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started GET "/pricing?period=Winter&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:46:47 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 39ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:46:54 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 95ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 875)
+
+
+Started GET "/pricing?period=Winter&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:46:58 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 20ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:47:08 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 26ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:47:14 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:47:17 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:47:25 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 61ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:47:27 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:47:33 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 28ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:47:42 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:47:51 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:47:57 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:48:04 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:48:06 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:11 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:48:14 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:48:16 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 49ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1672)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:20 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:30 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 15ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:38 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 56ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1768)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:48:39 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=RecursionRetreat&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:41 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"RecursionRetreat", "room"=>"SingletonRoom"}
+Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1537)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:48:45 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Autumn&hotel=FloatingPointResort&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:48:46 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Autumn", "hotel"=>"FloatingPointResort", "room"=>"SingletonRoom"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:48:55 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/pricing?period=Spring&hotel=RecursionRetreat&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:49:04 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"RecursionRetreat", "room"=>"RestfulKing"}
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Winter&hotel=FloatingPointResort&room=RestfulKing" for 172.17.0.1 at 2025-11-03 07:49:13 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Winter", "hotel"=>"FloatingPointResort", "room"=>"RestfulKing"}
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/pricing?period=Summer&hotel=GitawayHotel&room=SingletonRoom" for 172.17.0.1 at 2025-11-03 07:49:14 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Summer", "hotel"=>"GitawayHotel", "room"=>"SingletonRoom"}
+Completed 200 OK in 59ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1316)
+
+
+Started GET "/pricing?period=Spring&hotel=GitawayHotel&room=BooleanTwin" for 172.17.0.1 at 2025-11-03 07:49:16 +0000
+Processing by PricingController#index as HTML
+  Parameters: {"period"=>"Spring", "hotel"=>"GitawayHotel", "room"=>"BooleanTwin"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
